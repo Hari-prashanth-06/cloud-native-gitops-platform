@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.env
+venv/
+node_modules/
+*.log
+
+# Never commit real secrets
+**/secret-real.yaml
+*.env
+
+# Backups and temp
+*.bak
+*.tmp
+
+# Real secret files (use templates only)
+**/secret-values.yaml
+**/secrets-real.yaml
